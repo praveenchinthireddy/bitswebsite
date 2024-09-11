@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.obox{
+    border: solid 1px;
+    height: 220px;
+    display: flex;
+}
+#inbox1,#inbox2{
+    border: solid 1px;
+    height: 220px;
+}
+#inbox1{
+    width: 500px;
+}
+#inbox2{
+    width: 1700px;
+    text-align: center;
+}
+#clgname{
+    font-size: 50px;
+    color: red;
+}
+#clg2{
+    font-size: 40px;
+}
+#nacc{
+    font-size: 30px;
+}
+#clg3{
+    font-size: 30px;
+}
+#scrollclg{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(249, 7, 249);
+    font-style: italic;
+}
+#navbox{
+    border: solid 1px;
+    height: 60px;
+}
+ul li{
+    border: solid 1px;
+    font-size: 30px;
+    height: 60px;
+    width: 268px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    background-color: greenyellow;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    border-radius: 15px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: orangered;
+    font-size: 40px;
+    text-align: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+.outerbox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+    height: 400px;
+    z-index: -1;
+}
+#in1{
+    width: 700px;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 400px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+}
+@keyframes imgchange{
+    10%{
+        
+        background-image: url(img2.jpg);
+    }
+    20%{
+        background-image: url(img3.jpg);
+    }
+    30%{
+        background-image: url(img4.jpg);
+    }
+    40%{
+        background-image: url(img5.jpg);
+    }
+    50%{
+        background-image: url(img6.jpg);
+    }
+    60%{
+        background-image: url(img7.jpg);
+    }
+
+}
+#in2,#in3{
+    width: 500px;
+    
+}
+#placebox{
+    border: solid 1px;
+    height: 300px;
+}
+.
